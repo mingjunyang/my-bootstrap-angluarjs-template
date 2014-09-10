@@ -1,0 +1,35 @@
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header col-md-2">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand " href="#">
+        <h4>Cover{{$path()}}</h4>
+    </a>
+
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li ng-class="{active: $path() == '/a'}"><a href="#/">a</a>
+        </li>
+        <li ng-class="{active: $path() == '/b'}"><a href="#/b">b</a>
+        </li>
+        <li ng-class="{active: $path() == '/c'}"><a href="#/c">c</a>
+        </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li ng-class="{active: $path() == '/a'}"><a href="#/">a</a>
+        </li>
+        <li ng-class="{active: $path() == '/b'}"><a href="#/b">b</a>
+        </li>
+        <li ng-class="{active: $path() == '/c'}"><a href="#/c">c</a>
+        </li>
+    </ul>
+</div>
+<!-- /.navbar-collapse -->

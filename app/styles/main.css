@@ -1,0 +1,36 @@
+/*
+ * Globals
+ */
+
+/* Links */
+
+a, a:focus, a:hover {
+    color: #000;
+}
+/*
+ * Base structure
+ */
+
+html, body {
+    height: 100%;
+}
+body {
+    color: #000;
+    text-align: center;
+    /*    text-shadow:0 1px 3px rgba(0, 0, 0, .5);
+*/
+    /* box-shadow: inset 0 0 200px rgba(0, 0, 0, .7);
+*/
+}
+div ul li {
+    display: inline;
+    float: left;
+}
+footer {
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+}
