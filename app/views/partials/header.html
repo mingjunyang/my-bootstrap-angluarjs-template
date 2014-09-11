@@ -15,20 +15,24 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-        <li ng-class="{active: $path() == '/a'}"><a href="#/">a</a>
+        <li ng-class="{active: $path() == '/'}"><a href="/">/</a>
         </li>
-        <li ng-class="{active: $path() == '/b'}"><a href="#/b">b</a>
+        <li ng-class="{active: $path() == '/a'}"><a href="/a">a</a>
         </li>
-        <li ng-class="{active: $path() == '/c'}"><a href="#/c">c</a>
+        <li ng-class="{active: $path() == '/b'}"><a href="/b">b</a>
+        </li>
+        <li ng-class="{active: $path() == '/c'}"><a href="/c">c</a>
         </li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-        <li ng-class="{active: $path() == '/a'}"><a href="#/">a</a>
+        <li ng-class="{active: $path() == '/'}"><a href="/">/</a>
         </li>
-        <li ng-class="{active: $path() == '/b'}"><a href="#/b">b</a>
+        <li ng-class="{active: $path() == '/a'}"><a href="/a">a</a>
         </li>
-        <li ng-class="{active: $path() == '/c'}"><a href="#/c">c</a>
+        <li ng-class="{active: $path() == '/b'}"><a href="/b">b</a>
+        </li>
+        <li ng-class="{active: $path() == '/c'}"><a href="/c">c</a>
         </li>
     </ul>
 </div>
