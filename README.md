@@ -1,12 +1,29 @@
-# I
+I
+=
 
 Yet another amazing AngularJS app
 
-## Getting Started
+Getting Started
+---------------
 
-## Documentation
-_(Coming soon)_
+install
 
-## Examples
-_(Coming soon)_
+``` {.shell}
+bower install && npm install
+```
 
+run
+
+``` {.shell}
+grunt server
+```
+
+Documentation
+-------------
+
+*(Coming soon)*
+
+Examples
+--------
+
+*(Coming soon)*
